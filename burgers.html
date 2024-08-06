@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="./burgers.css">
+</head>
+<body>
+    <div style="margin: 0;" class="boxshadow">
+        <div
+            style="display: flex;font-family: sans-serif;padding-top: 20px;">
+            <a href="http://127.0.0.1:5500/index.html">
+                <img style="margin-left: 130px;mix-blend-mode: multiply;"
+                    src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg">
+            </a>
+
+            <div
+                style="display: flex;gap: 30px;margin-left: 30px;margin-top: 0;">
+
+                <div class="dropdown">
+                    <button onclick="myfunction()" style=margin-left:30px;
+                        class="dropbtn">Language</button>
+
+                    <div class="dropdown-content">
+                        <a
+                            href="https://www.mcdonalds.com/us/en-us.html">English</a>
+                        <a
+                            href="https://www.mcdonalds.com/us/es-us.html">Spanish</a>
+                    </div>
+                </div>
+
+                <a style="text-decoration: none;color: black;"
+                    href="https://www.mcdonalds.com/us/es-us/mcdonalds-email-signup.html">Sign
+                    Up</a>
+                <a style="text-decoration: none;color: black;"
+                    href="https://careers.mcdonalds.com/">Careers</a>
+
+            </div>
+            <div
+                style="display: flex;gap:20px; margin-left: 425px;">
+                <div>
+                    <img style="width: 20px;height: 15px;"
+                        src="./search-button-svgrepo-com.svg">
+                    <a
+                        href="https://www.mcdonalds.com/us/es-us/search-results.html"
+                        style="text-decoration:none; color:black;">Look
+                        For</a>
+                </div>
+                <div>
+                    <img src="./locater.svg">
+                    <a style="color: #006bae;"
+                        href="https://www.mcdonalds.com/us/es-us/restaurant-locator.html">Change
+                        your location</a></div>
+
+                <button onclick="orderNow()"
+                        style="background-color:#ffbc0d;border: 0;border-radius: 10px;height: 25px;width: fit-content;">Order
+                        Now</button>
+                
+            </div>
+        </div>
+        <div
+            style="display: flex;gap:30px;margin-left: 285px;font-family: sans-serif;padding-bottom: 30px;margin-bottom: 50px;">
+            <div class="dropdown">
+                <button onclick="myfunction()" style=margin-left:30px;text-decoration:underline;font-size:larger;text-decoration-color:red;text-decoration-thickness:10px;
+                    class="dropbtn"><b>Our Menu</b></button>
+
+                <div class="dropdown-content">
+                    <div class="column">
+                        <div style="display: flex;align-items: center;"><img
+                                style="width: 50px;height: 50px;mix-blend-mode: multiply;"
+                                src="https://s7d1.scene7.com/is/image/mcdonalds/breakfast_300x300:menu-category?resmode=sharp2">
+                            <a
+                                href="breakfast.html">Breakfast</a></div>
+                        <div style="display: flex;align-items: center;"><img
+                                style="width: 50px;height: 50px;mix-blend-mode: multiply;"
+                                src="https://s7d1.scene7.com/is/image/mcdonalds/burgers_300x300:menu-category?resmode=sharp2">
+                            <a
+                                href="burgers.html">Burgers</a></div>
+
+                        <div style="display: flex;align-items: center;"><img
+                                style="width: 50px;height: 50px;mix-blend-mode: multiply;"
+                                src="https://s7d1.scene7.com/is/image/mcdonalds/chicken_sandwiches_300x300:category-panel-left-desktop"><a
+                                href="https://www.mcdonalds.com/us/es-us/full-menu/chicken-and-sandwiches.html">Chicken
+                                &Fish Sandwhiches</a></div>
+                        <div style="display: flex;align-items: center;">
+                            <img
+                                style="width: 50px;height: 50px;mix-blend-mode: multiply;"
+                                src="https://s7d1.scene7.com/is/image/mcdonalds/nav_combo_meal_160x160_:menu-category?resmode=sharp2">
+                            <a
+                                href="https://www.mcdonalds.com/us/es-us/full-menu/combo-meal.html">McNuggets
+                                and Meals</a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div style="display: flex;align-items: center;"><img
+                                style="width: 50px;height: 50px;mix-blend-mode: multiply;"
+                                src="https://s7d1.scene7.com/is/image/mcdonalds/snacks_sides_300x300:menu-category?resmode=sharp2">
+                            <a
+                                href="https://www.mcdonalds.com/us/es-us/full-menu/snacks-and-sides.html">Snacks
+                                &Side Dishes</a></div>
+                        <div style="display: flex;align-items: center;"><img
+                                style="width: 50px;height: 50px;mix-blend-mode: multiply;"
+                                src="https://s7d1.scene7.com/is/image/mcdonalds/nav_happy_meal_160x160:menu-category?resmode=sharp2">
+                            <a
+                                href="https://www.mcdonalds.com/us/es-us/full-menu/happy-meal.html">Happy
+                                Meals</a></div>
+
+                        <div style="display: flex;align-items: center;"><img
+                                style="width: 50px;height: 50px;mix-blend-mode: multiply;"
+                                src="https://s7d1.scene7.com/is/image/mcdonalds/MealDeal_NavigationImage_160x160v1:menu-category?resmode=sharp2"><a
+                                href="https://www.mcdonalds.com/us/es-us/full-menu/5-dollar-meals.html">Meal
+                                Deals</a></div>
+                        <div style="display: flex;align-items: center;"><img
+                                style="width: 50px;height: 50px;mix-blend-mode: multiply;"
+                                src="https://s7d1.scene7.com/is/image/mcdonalds/mccafe_300x300:menu-category?resmode=sharp2">
+                            <a
+                                href="https://www.mcdonalds.com/us/es-us/full-menu/mccafe.html">McCafe</a>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div style="display: flex;align-items: center;"><img
+                                style="width: 50px;height: 50px;mix-blend-mode: multiply;"
+                                src="https://s7d1.scene7.com/is/image/mcdonalds/desserts_shakes_300x300:menu-category?resmode=sharp2">
+                            <a
+                                href="https://www.mcdonalds.com/us/es-us/full-menu/desserts-and-shakes.html">Desserts
+                                & Shakes</a></div>
+                        <div style="display: flex;align-items: center;"><img
+                                style="width: 50px;height: 50px;mix-blend-mode: multiply;"
+                                src="https://s7d1.scene7.com/is/image/mcdonalds/drinks_300x300:menu-category?resmode=sharp2">
+                            <a
+                                href="https://www.mcdonalds.com/us/es-us/full-menu/drinks.html">Drinks</a></div>
+
+                        <div style="display: flex;align-items: center;"><img
+                                style="width: 50px;height: 50px;mix-blend-mode: multiply;"
+                                src="https://s7d1.scene7.com/is/image/mcdonalds/D123_160x160:menu-category?resmode=sharp2"><a
+                                href="https://www.mcdonalds.com/us/es-us/full-menu/123dollarmenu.html">$1
+                                $2 &3 Menu</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <a href="http://127.0.0.1:5500/index.html"
+                style="text-decoration: none;color: black;">Mcdonalds
+                    app</a>
+            <a style="color: black;text-decoration: none;"
+                href="https://www.mcdonalds.com/us/es-us/mymcdonalds.html">MyMcdonald's
+                Rewards</a>
+            <a style="text-decoration: none;color: black;"
+                href="https://www.mcdonalds.com/us/es-us/about-our-food.html">Our
+                Food</a>
+            <a style="text-decoration: none; color: black;"
+                href="https://www.mcdonalds.com/us/es-us/deals.html">Exclusive
+                Offers</a>
+            <a style="text-decoration: none; color: black;"
+                href="https://www.mcdonalds.com/us/es-us/mcdelivery.html">McDelivery</a>
+            <a class="mcd"
+                href="https://www.mcdonalds.com/us/es-us/restaurant-locator.html">To
+                locate</a>
+            <a class="mcd"
+                href="https://www.mcdonalds.com/us/es-us/arch-card.html">Gift
+                Cards</a>
+        </div>
+    </div>
+
+   <!-- this is where the box menu ends -->
+   
+    <div class="container">
+        <header>
+            <h1>Burgers</h1>
+            <div class="shopping">
+                <img src="cart-large-minimalistic-svgrepo-com.svg" alt>
+                <span class="quantity">0</span>
+            </div>
+        </header>
+        <div class="list"></div>
+    </div>
+
+    <div class="card">
+        <h1>Cart</h1>
+        <ul class="listCard"></ul>
+        <div class="checkOut">
+            <div onclick="showAlert()" class="total">0</div>
+            <div class="closeShopping">Close</div>
+        </div>
+    </div> 
+    
+ <script src="burgers.js"></script>   
+
+
+ <div id="order-pop-down"
+ style="width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; z-index: 100; background-color: rgba(0, 0, 0, 0.5); display: none; justify-content: center; align-items: center;">
+ <div class="boxshadow"
+     style="border-color: black;border: 10px; background-color: white; width: 500px; height: 800px;">
+     <div>
+         <div style="display: flex;flex-direction: column;"> <center>
+                 <h1> <b>Earn points in the app <br> by using the
+                         delivery
+                         <br> or pickup service</b></h1>
+                 <p style="font-size:small;"> Or select a delivery
+                     option
+                     from
+                     below</p></div>
+             <button style="
+             position: relative;
+             float: right;
+             right: 20px;
+             bottom: 170px; background-color: transparent;border: none;"
+                 onclick="closeNow()">
+                 <img style=" height: 35px;
+             width: 35px;"
+                     src="./wrong-delete-remove-trash-minus-cancel-close-2-svgrepo-com.svg">
+             </button></center>
+         <center style="margin: 33px;"><div
+                 style="border: 1px solid black;width: 350px; display: flex;margin-top: 20px;">
+                 <div style="padding-top: 20px;padding-left: 50px;">
+                     <h2 style="margin: 0;"><b>McDonalds App</b></h2>
+                     <p style="margin: 0;">Download the Mcdonalds
+                         <br>
+                         app by
+                         scanning the qr
+                         code</p>
+                 </div>
+                 <img
+                     src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/mcdelivery/BlackPhone_ES_QR_downloadapp.png">
+             </div></center>
+     </div>
+     <center><div
+             style="border: 1px solid black;width: 350px; display: flex;gap: 60px;align-items: center;">
+             <img style="height: 62px;width: 80px;"
+                 src="https://s7d1.scene7.com/is/image/mcdonalds/UberEats-1-2">
+             <p style="font-family: sans-serif;"><b>Uber Eats</b></p>
+             <a
+                 href="https://www.ubereats.com/brand/mcdonalds?utm_source=mcdonalds&utm_medium=brandpage&utm_campaign=ext-mcdonalds-USCA-chainpage"><img
+                     style="height: 67px;width: 75;"
+                     src="./right-arrow-svgrepo-com.svg"></a>
+
+         </div></center>
+     <center style="margin-top: 15px;"><div
+             style="border: 1px solid black;width: 350px; display: flex;gap: 60px;align-items: center;">
+             <img style="height: 62px;width: 80px;"
+                 src="https://s7d1.scene7.com/is/image/mcdonalds/DoorDash-1">
+             <p style="font-family: sans-serif;"><b>DoorDash</b></p>
+             <a
+                 href="https://www.doordash.com/?ignore_splash_experience=true&&utm_source=Google&utm_medium=SEMb&utm_campaign=CX_US_SE_SB_GO_ACQ_TETXXX_21142159095_RSTRNT_+BR_ACQ_INMKT_GenDeliveryxx_EVG_CPAx_EPX_COUSA_EN_EN_X_DOOR_GO_SE_TXT_ADAIXXXXXX&utm_term=doordash&utm_content=161339104700&kclickid=_k_Cj0KCQjwh7K1BhCZARIsAKOrVqFHylOri1PvG7qLXnAElAyofZnoVqcsGQaBLRWyFtmKVVlWe396ZogaAmPxEALw_wcB_k_&utm_adgroup_id=161339104700&utm_creative_id=695355755995&utm_keyword_id=kwd-63454401416&gad_source=1&gclid=Cj0KCQjwh7K1BhCZARIsAKOrVqFHylOri1PvG7qLXnAElAyofZnoVqcsGQaBLRWyFtmKVVlWe396ZogaAmPxEALw_wcB&gclsrc=aw.ds"><img
+                     style="height: 67px;width: 75px;"
+                     src="./right-arrow-svgrepo-com.svg"></a>
+
+         </div></center>
+     <center style="margin-top: 15px;"><div
+             style="border: 1px solid black;width: 350px; display: flex;gap: 60px;align-items: center;">
+             <img style="height: 62px;width: 80px;"
+                 src="https://s7d1.scene7.com/is/image/mcdonalds/JET_Grubhub_logo_horizontal%20_sRGB-R-Orange">
+             <p style="font-family: sans-serif;"><b>Grub Hub</b></p>
+             <a
+                 href="https://www.grubhub.com/food/mcdonalds?utm_source=mcdonalds_website&utm_medium=enterprise-rest_partner&utm_campaign=rest-brand_5de59e10-3ba6-11e9-b0a9-3d145c71a10c&utm_content=mcdonalds"><img
+                     style="height: 67px;width: 75px;"
+                     src="./right-arrow-svgrepo-com.svg"></a>
+
+         </div></center>
+     <center style="margin-top: 15px;"><div
+             style="border: 1px solid black;width: 350px; display: flex;gap: 60px;align-items: center;">
+             <img style="height: 62px;width: 80px;"
+                 src="https://s7d1.scene7.com/is/image/mcdonalds/Postmates-1">
+             <p style="font-family: sans-serif;"><b>PostMates</b></p>
+             <a href="https://postmates.com/"><img
+                     style="height: 67px;width: 75px;"
+                     src="./right-arrow-svgrepo-com.svg"></a>
+
+         </div></center>
+     <center> <p
+             style="font-family: sans-serif;font-size: small;">You
+             are leaving McDonald's to visit a site not sponsored by
+             McDonald's. Please review<br>the third party's privacy
+             policy, accessibility policy and terms. McDonald's is
+             not<br> responsible for the opinions, policies,
+             statements or practices of any other company,<br> which
+             may be reflected in the website you are
+             accessing.</p></center>
+
+ </div>
+
+</div>
+
+</body>
+</html>
